@@ -1,0 +1,148 @@
+$spacer: 2rem;
+$primary: #1A2633;
+$secondary: #2B3D524D;
+$warning: #BCC9DA;
+.navbar-nav{
+    .nav-link {
+        font-family: 'Montserrat', sans-serif;
+    }
+    .nav-link:hover {
+        color: #227CE4 !important;
+    }
+}
+.linkn:hover{
+    color: #227CE4 !important;
+}
+.block_one{
+    img{
+        width: 60vw;
+    }
+    .eqd{
+        width: 23vw;
+    }
+    .img-top{
+        width: 20vw;
+        top: 3vw;
+        right: 3vw;
+    }
+    .img-top-2{
+        width: 30vw;
+    }
+}
+.custom-image {
+    max-width: 80%;
+}
+.Oleg{
+    input{
+        outline: none;
+        border: none;
+        border-bottom: 1px white solid;
+    }
+    input::placeholder{
+        color: white;
+    }
+}
+.phone-call{
+    background-image: url("/images/Screen\ 6.png");
+}
+@media (max-width: 576px) {
+    .groups_sells{
+        img{
+            display: none !important;
+        }
+    }
+    .avia{
+        font-size: 2.5rem !important;
+    }
+    .error{
+        font-size: 8rem !important;
+        line-height: 90px !important;
+    }
+    .block_three .row {
+        flex-direction: column-reverse; 
+    }
+    .block_three .custom-image {
+        width: 100%;
+        max-width: 400px; 
+        margin-top: 20px; 
+    }
+    .block_three .text-content {
+        text-align: center;
+        padding: 10px; 
+    }
+    .block_three .image-container {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+.footer-bg-img {
+    width: 100vw;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.footer-logo {
+    width: 50%;
+}
+
+
+.footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer p {
+    margin-bottom: 0.5rem; 
+}
+
+
+@media (max-width: 576px) {
+    .footer .row {
+        text-align: center; 
+    }
+    .footer .col-6 {
+        margin-bottom: 15px; 
+    }
+    .footer p {
+        font-size: 0.9rem; 
+    }
+}
+
+.our{
+    @media (max-width: 500px) {
+        .small-text h5 {
+          font-size: 1rem; 
+        }
+        .small-text p {
+          font-size: 0.75rem; 
+        }
+      }
+}
+.maps{
+    .nav-pills .nav-link.active {
+        background-color: #2B3D524D;
+        color: #fff;
+    }
+    .nav-tabs .nav-link {
+        border-radius: 0; 
+        padding: 10px;
+        width: 100%; 
+        text-align: center;
+        color: #ffffff;
+        background-color: #2B3D524D;
+    }
+    .nav-tabs .nav-link.active {
+        background-color: #34495e; 
+        color: #ffffff;
+    }
+    .map-container {
+        height: 300px; 
+    }
+}
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
